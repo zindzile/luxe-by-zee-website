@@ -1,0 +1,139 @@
+body {
+  /*this is your fallout solid color */
+  background-color: #DCAE96;
+    font-style:italic;
+    text-align:center;
+  
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  margin: 0;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.main container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: rgba(255,255,0.85);
+  padding: 40px;
+  border-radius: 2px solid #fD65E5;
+  margin-top: 20px;
+  box-shadow: 0  0 15px rgba(255,255,255,0.6)
+           0 0 5px rgba(212, 175, 55,0.3);
+}
+      
+style
+  .lash-types {
+    text-align: center;
+    font-family: 'arial', sans-serif;
+    padding: 20px
+  }
+
+  .lash-box {
+    display: inline-block;
+    width: 200px;
+    margin: 15px;
+    vertical-align: top;
+  }
+
+  .lash-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  }
+
+  .lash-box p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+   .booking-com {
+      font-family:'ariel' sans-serif;
+      text-align:center;
+  }
+  .nav{
+    margin-bottom: 30px;
+  }
+  
+  .nav a {
+    margin: 0 15px;
+    text-decoration: none; 
+    font-weight: bold;
+    color: #000;
+  }
+  .nav a:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease;
+}
+
+.fade-in.show{
+  opacity: 1;
+  transform: translateY(0);
+}
+.floating-heart {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(255,182,193,0.2);
+  animation: float 6s ease-in-out infinite;
+  z-index: 999;
+}
+
+.floating-heart  :before,
+.floating-heart :after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #ffb6c1;
+  border-radius: 50%;
+}
+ 
+.some-class{
+ background: linear-gradient(135deg,#fff0f5, #fff4e1);
+}
+
+.floating-heart :before{
+  top: -25px;
+  left:0;
+}
+
+.floating-heart :after {
+  top:0;
+  left:25px;
+}
+
+
+@keyframes float {
+  0% { transform: translateY(0)rotate(-45deg); }
+  50% { transform: translateY(-20px)rotate(-45deg); }
+  100% {transform: translateY(0)rotate(-45deg);}
+   
+}
+
+.floating-heart:nth-child(1) {animation-duration: 6s; }
+
+.book {
+   background-image: url("images/WhatsApp%20Image%202026-03-19%20at%2001.37.17%20(2).jpeg");
+   background-size: 95%;
+   background-position: center;
+   background-repeat: no-repeat;
+  
+     
+  
+}
+
+
